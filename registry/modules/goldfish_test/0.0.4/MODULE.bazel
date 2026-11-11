@@ -91,9 +91,8 @@ test_seq_ext.windows(
 )
 use_repo(test_seq_ext, "test_seq")
 
-local = use_repo_rule("//deps/local:repo.bzl", "local")
-
-local(name = "local")
+artifacts = use_extension("//deps/local:extension.bzl", "artifacts")
+use_repo(artifacts, local = "hub")
 
 gcs_file(
     name = "animation_app",
