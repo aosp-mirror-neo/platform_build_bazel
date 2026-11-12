@@ -19,7 +19,6 @@ ignore_directories([
     "prebuilts/studio/jdk/jdk17/win",
     "third_party/adt-infra/goldfish_test",
     "third_party/crashpad",
-    "third_party/dtc",
     "third_party/ffmpeg",
     "third_party/google-breakpad",
     "third_party/keycodemapdb",
