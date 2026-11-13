@@ -22,7 +22,6 @@ ignore_directories([
     "third_party/ffmpeg",
     "third_party/google-breakpad",
     "third_party/keycodemapdb",
-    "third_party/libdrm",
     "third_party/libslirp",
     "third_party/mesa3d",
     "third_party/meson",
