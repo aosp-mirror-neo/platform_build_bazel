@@ -29,7 +29,6 @@ ignore_directories([
     "third_party/pixman",
     "third_party/qemu",
     "third_party/rust/*",
-    "third_party/vulkan-headers",
     "third_party/wayland",
     "third_party/webrtc",
     "tools/analytics-library/protos/src/main/proto",
