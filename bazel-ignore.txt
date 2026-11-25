@@ -2,3 +2,6 @@ prebuilts/clang/host/*
 prebuilts/studio/jdk
 tools/analytics-library
 third_party/adt-infra
+
+# Studio vendor projects (individual Bzlmod modules are loaded via registry)
+tools/vendor/google

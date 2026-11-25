@@ -28,4 +28,5 @@ ignore_directories([
     "third_party/webrtc",
     "tools/analytics-library",
     "tools/emulator",
+    "tools/vendor/google",
 ])
